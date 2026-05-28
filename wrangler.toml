@@ -1,0 +1,11 @@
+name = "iim-trophy"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+# Set your GitHub token as a secret (never commit it):
+#   wrangler secret put GH_TOKEN
+#
+# Optionally bind a custom domain via the Cloudflare dashboard or:
+#   [[routes]]
+#   pattern = "trophy.example.com"
+#   custom_domain = true
