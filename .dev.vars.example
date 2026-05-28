@@ -1,0 +1,2 @@
+# Copy to .dev.vars for local dev (never commit the real file)
+GH_TOKEN=your_github_token_with_read_user_and_repo_scope
