@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏆 IIM Trophy
+# IIM Trophy
 
 **Self-hosted GitHub profile trophies — rendered at the edge on Cloudflare Workers.**
 
@@ -28,12 +28,12 @@ because of someone else's bill.
 
 ## Features
 
-- ⚡ **Zero dependencies** — one file, runs on the Workers free tier
-- 🎨 **IIM red/black theme** — sharp, dark, transparent-friendly
-- 🏅 **Rank engine** — `SSS → C` with per-category progress bars
-- 🛡️ **Custom trophy categories** — define your own, not just GitHub defaults
-- 🚀 **Edge cached** — fast everywhere, no cold-start flicker
-- 🔒 **Private by design** — renders only public stats for whatever `?username=` is passed
+- **Zero dependencies** — one file, runs on the Workers free tier
+- **IIM red/black theme** — sharp, dark, transparent-friendly
+- **Rank engine** — `SSS → C` with per-category progress bars
+- **Custom trophy categories** — define your own, not just GitHub defaults
+- **Edge cached** — fast everywhere, no cold-start flicker
+- **Private by design** — renders only public stats for whatever `?username=` is passed
 
 ## Trophies
 
@@ -44,9 +44,9 @@ because of someone else's bill.
 | **Stars** | Total stargazers across repos |
 | **Followers** | Follower count |
 | **Experience** | Account age |
-| 🛡️ **Sentinel** | Tools shipped *(custom)* |
-| ⚡ **Edge Forged** | Repos built on the edge *(custom)* |
-| 🔍 **Signal Hunter** | Total research activity *(custom)* |
+| **Sentinel** | Tools shipped *(custom)* |
+| **Edge Forged** | Repos built on the edge *(custom)* |
+| **Signal Hunter** | Total research activity *(custom)* |
 
 The three custom trophies are marked with a red accent bar and are trivial to
 re-theme or replace — see `buildTrophies()` in [`src/worker.js`](./src/worker.js).
@@ -99,11 +99,11 @@ with a custom rank engine, theme, and trophy set — not a fork of its source.
 
 ---
 
-## ⚡ Support the Mission
+## Support the Mission
 
 This is free, ad-free, independent infrastructure — no VC, no gov funding, no strings. If it served you, a tip keeps it alive and funds the next tool.
 
 [![Donate via SkyGive](https://img.shields.io/badge/Donate_via_SkyGive-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
 [![Lightning](https://img.shields.io/badge/tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
 
-<sub>🧡 Sovereign Lightning + on-chain via SkyGive. Your sats fund uptime, not ads.</sub>
+<sub> Sovereign Lightning + on-chain via SkyGive. Your sats fund uptime, not ads.</sub>
